@@ -41,7 +41,7 @@
             color: yellow;
         }
         body{
-            background-image: url("./img/mobile1.jpg");
+            background-image: url("./img/iot.png");
 
         }
     </style>
@@ -71,13 +71,16 @@
                 <li>
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" >Products<b class="caret"></b></a>
                     <ul class="dropdown-menu">
-                        <li><a href="mobile.html">Mobile</a></li>
+                        <li><a href="about.html">Mobile</a></li>
                         <li><a href="bigData.html">Big Data</a></li>
-                        <li><a href="IOT.html">IoT</a></li>
+                        <li><a href="about.html">IoT</a></li>
                     </ul>
                 </li>
                 <li>
-                    <a href="management.html">About</a>
+                    <a href="about.html">About</a>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Blog <b class="caret"></b></a>
                 </li>
             </ul>
         </div>
@@ -107,7 +110,7 @@
         <div class="col-lg-2">
             <br><br><br><br><br><br><br><br><br><br><br><br><br>
             <div class="row text-center">
-                <a class="btn btn-warning btn-lg" href="http://www.ibm.com/analytics/watson-analytics/us-en/?S_PKG=ov26798&cm_mmc=Search_Google-_-IBM+Analytics_+AP+Horizontal+Watson+Analytics-_-WW_US-_-+ibm++watson+apps_Broad_ov26798&cm_mmca1=000000NN&cm_mmca2=10000338&mkwid=9ca2dea7-1e39-41b5-b825-36f972b21af0|510|61729"><!--broshure button-->
+                <a class="btn btn-warning btn-lg" href="http://anothersitehere.com/file.pdf"><!--broshure button-->
                     BROCHURE
                 </a>
             </div>
@@ -177,12 +180,9 @@
                 <div class="popover-example">
                     <div class="popover right">
                         <div class="arrow"></div>
-                        <h3 class="popover-title">Business Ethics</h3>
+                        <h3 class="popover-title">Popover top</h3>
                         <div class="popover-content">
-                            <p>Delivering Business with highest level of integrity and core societal values
-                                Customer Focus
-                                Create People First Organization
-                                Create great workplace culture and stable employment</p>
+                            <p>Sed posuere consectetur est at lobortis. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.</p>
                         </div>
                     </div>
                 </div>
@@ -191,12 +191,9 @@
                 <div class="popover-example">
                     <div class="popover right">
                         <div class="arrow"></div>
-                        <h3 class="popover-title">Core Values</h3>
+                        <h3 class="popover-title">Popover top</h3>
                         <div class="popover-content">
-                            <p>Enriching life
-                                Timeless company
-                                Delivering High Quality Products and Solutions
-                                Establish ever lasting long term internal and external partnerships.</p>
+                            <p>Sed posuere consectetur est at lobortis. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.</p>
                         </div>
                     </div>
                 </div>
@@ -206,7 +203,7 @@
     </div>
 
     <div class="row text-center">
-        <div class="col-lg-3 col-lg-offset-4" style="background-color: coral">
+        <div class="col-lg-3 col-lg-offset-4 bg-info">
             <h4>Our Offer Pricing</h4>
         </div>
     </div>
@@ -230,7 +227,7 @@
     </div>
 
     <footer>
-        <div class="row" style="padding-bottom:10%">
+        <div class="row" style="padding:10%">
             <div class="col-lg-12 ">
                 <div class="well" style="background: rgba(63, 191, 164, 0.3); height: 6%">
                     <div class="row">
