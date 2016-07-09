@@ -41,9 +41,9 @@
             color: yellow;
         }
 
-         * {
-             box-sizing: border-box;
-         }
+        * {
+            box-sizing: border-box;
+        }
 
         .background-image {
             background-image: url('./img/color.png');
@@ -107,6 +107,9 @@
                 <li>
                     <a href="management.html">About</a>
                 </li>
+                <li>
+                    <a href="directions.html">Location</a>
+                </li>
             </ul>
         </div>
         <!-- /.navbar-collapse -->
@@ -126,13 +129,13 @@
             <div class="row">
                 <!--<h3 style="text-align: center; color: ghostwhite">Management</h3>-->
 
-                    <div class="col-lg-12">
-                        <div class="well" style="background: rgba(189, 191, 63,0.3); height: 5%">
-                            <div class="row">
-                                    <p style="color: whitesmoke; font-weight: 600;">Visionary Data Scientists. accomplished industry veterans. Trustsed advisors.
-                                        Proven investors. Our company is led by a world class team that believes in data's potential to change the world.
-                                        Our company is proud to be backed by intel, Questmark Partners, Goldman sachs and other strategic investors.</p>
-                                </div>
+                <div class="col-lg-12">
+                    <div class="well" style="background: rgba(189, 191, 63,0.3); height: 5%">
+                        <div class="row">
+                            <p style="color: whitesmoke; font-weight: 600;"><strong>Visionary Data Scientists. accomplished industry veterans. Trustsed advisors.
+                                Proven investors. Our company is led by a world class team that believes in data's potential to change the world.
+                                Our company is proud to be backed by intel, Questmark Partners, Goldman sachs and other strategic investors.</strong></p>
+                        </div>
 
                         <!-- Call to Action Section -->
                     </div>
@@ -141,46 +144,46 @@
             </div>
             <div class="col-md-4 col-lg-offset-1 text-center">
                 <div class="thumbnail">
-                    <a href="#" class="" data-toggle="modal" data-target="#myModal">
-                    <img class="img-responsive" src="./img/pri.jpg" alt="">
-                    <!-- http://placehold.it/750x450-->
-                    <div class="caption">
-                        <h3>Priyanka Malviya<br>
-                            <small>Web developer</small>
-                        </h3>
-                        <p>Loves programming in general. Currently busy experimenting with AJAX. Loves to play with highcharts.</p>
-                        <ul class="list-inline">
-                            <li><a href="https://www.facebook.com/priyanka.malviya.148"><i class="fa fa-2x fa-facebook-square"></i></a>
-                            </li>
-                            <li><a href="https://www.linkedin.com/in/priyanka-malviya-0a858862"><i class="fa fa-2x fa-linkedin-square"></i></a>
-                            </li>
-                            <li><a href="https://twitter.com/priyankamalvi18"><i class="fa fa-2x fa-twitter-square"></i></a>
-                            </li>
-                        </ul>
+                    <div  data-toggle="modal" data-target="#myModal">
+                        <img class="img-responsive" src="./img/pri.jpg" alt="">
+                        <!-- http://placehold.it/750x450-->
+                        <div class="caption">
+                            <h3>Priyanka Malviya<br>
+                                <small>Web developer</small>
+                            </h3>
+                            <p>Loves programming in general. Currently busy experimenting with AJAX. Loves to play with highcharts.</p>
+                            <ul class="list-inline">
+                                <li><a src="https://www.facebook.com/priyanka.malviya.148"><i class="fa fa-2x fa-facebook-square"></i></a>
+                                </li>
+                                <li><a src="https://www.linkedin.com/in/priyanka-malviya-0a858862"><i class="fa fa-2x fa-linkedin-square"></i></a>
+                                </li>
+                                <li><a href="https://twitter.com/priyankamalvi18"><i class="fa fa-2x fa-twitter-square"></i></a>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
-                    </a>
                 </div>
             </div>
             <div class="col-md-2 text-center"></div>
             <div class="col-md-4 text-center">
                 <div class="thumbnail">
-                    <a href="index.html" class="">
-                    <img class="img-responsive" src="./img/anya1.jpg" alt="">
-                    <div class="caption">
-                        <h3>Sharanya Nair<br>
-                            <small>Web Developer</small>
-                        </h3>
-                        <p>Expert in Bootstrap. Loves to design database schemas and design different layouts for pages to make them simple, lightweight, and sophisticated.</p>
-                        <ul class="list-inline">
-                            <li><a href="https://www.facebook.com/sharanya.nair.965?fref=ts"><i class="fa fa-2x fa-facebook-square"></i></a>
-                            </li>
-                            <li><a href="https://www.linkedin.com/in/sharanya-nair-02877890"><i class="fa fa-2x fa-linkedin-square"></i></a>
-                            </li>
-                            <li><a href="#"><i class="fa fa-2x fa-twitter-square"></i></a>
-                            </li>
-                        </ul>
+                    <div data-toggle="modal" data-target="#myModal1">
+                        <img class="img-responsive" src="./img/anya1.jpg" alt="">
+                        <div class="caption">
+                            <h3>Sharanya Nair<br>
+                                <small>Web Developer</small>
+                            </h3>
+                            <p>Expert in Bootstrap. Loves to design database schemas and design different layouts for pages to make them simple, lightweight, and sophisticated.</p>
+                            <ul class="list-inline">
+                                <li><a href="https://www.facebook.com/sharanya.nair.965?fref=ts"><i class="fa fa-2x fa-facebook-square"></i></a>
+                                </li>
+                                <li><a href="https://www.linkedin.com/in/sharanya-nair-02877890"><i class="fa fa-2x fa-linkedin-square"></i></a>
+                                </li>
+                                <li><a href="#"><i class="fa fa-2x fa-twitter-square"></i></a>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
-                        </a>
                 </div>
             </div>
         </div>
@@ -188,20 +191,49 @@
     </div>
 
     <!-- Modal -->
-    <div id="myModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-        <div class="modal-header">
-            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-            <h3 id="myModalLabel">Modal header</h3>
-        </div>
-        <div class="modal-body">
-            <p>One fine body…</p>
-        </div>
-        <div class="modal-footer">
-            <button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
-            <button class="btn btn-primary">Save changes</button>
-        </div>
-    </div>
+    <div class="row text-center">
 
+        <!-- Modal -->
+        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title" id="myModalLabel">Priyanka Malviya</h4>
+                    </div>
+                    <div class="modal-body">
+                        <img style="width: 300px; height:300px;" src="./img/pri.jpg">
+                    </div>
+                    <div class="modal-footer">
+                        <p>Expert in Bootstrap. Loves to design database schemas and design different layouts for pages to make them simple, lightweight, and sophisticated.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!--Modal2-->
+    <div class="row text-center">
+
+        <!-- Modal -->
+        <div class="modal fade" id="myModal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title" id="myModalLabel1">Sharanya Nair</h4>
+                    </div>
+                    <div class="modal-body">
+                        <img style="width: 300px; height:300px;" src="./img/anya1.jpg">
+                    </div>
+                    <div class="modal-footer">
+                        <p>Expert in Bootstrap. Loves to design database schemas and design different layouts for pages to make them simple, lightweight, and sophisticated.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
     <!-- Footer -->
     <footer>
         <div class="row">
@@ -220,50 +252,50 @@
     </footer>
 
 
-<!-- /.container -->
+    <!-- /.container -->
 
-<!-- jQuery -->
-<script src="js/jquery.js"></script>
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
 
-<!-- Bootstrap Core JavaScript -->
-<script src="js/bootstrap.min.js"></script>
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
 
-<script src="http://code.jquery.com/jquery-latest.min.js"></script>
-<script src="js/jquery.breakingNews.min.js"></script>
-<script>
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="js/jquery.breakingNews.min.js"></script>
+    <script>
 
-    // news feed
+        // news feed
 
-    $('.feed-3').breakingNews({
-        url: 'http://feeds.bbci.co.uk/news/world/rss.xml',
-        feedSize: {
-            height: '20px',
-            width: '920px'
-        },
-        numberToShow: 50,
-        refresh: 2000,
-        effect: 'tricker',
-        effectDuration: 50,
-        onComplete: function() {
-            $(this).prepend('<div class="feed-title-3" />');
-            $('.feed-title-3').html(arguments[0].responseData.feed.title);
-        }
-    });
-</script>
-<script type="text/javascript">
+        $('.feed-3').breakingNews({
+            url: 'http://feeds.bbci.co.uk/news/world/rss.xml',
+            feedSize: {
+                height: '20px',
+                width: '920px'
+            },
+            numberToShow: 50,
+            refresh: 2000,
+            effect: 'tricker',
+            effectDuration: 50,
+            onComplete: function() {
+                $(this).prepend('<div class="feed-title-3" />');
+                $('.feed-title-3').html(arguments[0].responseData.feed.title);
+            }
+        });
+    </script>
+    <script type="text/javascript">
 
-    var _gaq = _gaq || [];
-    _gaq.push(['_setAccount', 'UA-36251023-1']);
-    _gaq.push(['_setDomainName', 'jqueryscript.net']);
-    _gaq.push(['_trackPageview']);
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-36251023-1']);
+        _gaq.push(['_setDomainName', 'jqueryscript.net']);
+        _gaq.push(['_trackPageview']);
 
-    (function() {
-        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-    })();
+        (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
 
-</script>
+    </script>
 </body>
 
 </html>
